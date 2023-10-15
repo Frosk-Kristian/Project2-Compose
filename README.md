@@ -20,6 +20,23 @@ Project containing docker compose file for ISEC6000 Secure Dev Ops - Assignment 
 * Docker Compose
 
 ## Usage
+### Run the application
 ```shell
 docker compose up -d
+```
+The flag `-d` runs containers in the background, printing container id.
+
+### Stop the application
+```shell
+docker compose stop
+```
+
+### Remove volumes
+```shell
+docker compose rm
+```
+
+### Prune cache
+```shell
+docker system prune
 ```

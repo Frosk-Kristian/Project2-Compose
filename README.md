@@ -3,6 +3,7 @@ Kristian Frossos, Student No. 20853161
 
 ## Table of Contents
 * [Introduction](#introduction)
+* [Cloning](#cloning-this-repository)
 * [Requirements](#requirements)
 * [Run](#running-the-project)
 * [Usage](#usage)
@@ -10,10 +11,16 @@ Kristian Frossos, Student No. 20853161
 ## Introduction
 Project containing docker compose file for ISEC6000 Secure Dev Ops - Assignment 2, semester 2 2023 by Kristian Frossos.
 
+## Cloning this repository
+To clone this repository to your own machine, enter the following:
+```shell
+git clone https://github.com/Frosk-Kristian/Project2-Compose.git
+```
+
 ## Requirements
 * Minimum server requirements.
     * Ubuntu 20.04 or later.
-        * Tested on Windows 10 with WSL2 running Ubuntu 22.04.2 LTS.
+        * Tested with WSL2 running Ubuntu 22.04.2 LTS.
     * 1GB of RAM.
     * 2 CPU cores.
     * 10GB free space.
@@ -22,6 +29,7 @@ Project containing docker compose file for ISEC6000 Secure Dev Ops - Assignment 
 
 ## Runnning the Project
 ### Run the application
+In the directory you've cloned this repository to, enter the following:
 ```shell
 docker compose up -d
 ```

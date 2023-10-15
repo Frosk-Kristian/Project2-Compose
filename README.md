@@ -27,7 +27,7 @@ git clone https://github.com/Frosk-Kristian/Project2-Compose.git
 * Docker Engine
 * Docker Compose
 
-## Runnning the Project
+## Running the Project
 ### Run the application
 In the directory you've cloned this repository to, enter the following:
 ```shell

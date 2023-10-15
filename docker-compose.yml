@@ -3,13 +3,15 @@ version: "3"
 services:
   dind:
     image: docker:dind
+    ports:
+      - 2376:2376/tcp
     privileged: true
+    user: root
+    container_name: dind
     networks:
       jenkins:
         aliases:
           - docker
-    user: root
-    container_name: dind
     environment:
       - DOCKER_TLS_CERTDIR=/certs
     volumes:

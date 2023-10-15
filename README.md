@@ -4,6 +4,7 @@ Kristian Frossos, Student No. 20853161
 ## Table of Contents
 * [Introduction](#introduction)
 * [Requirements](#requirements)
+* [Run](#running-the-project)
 * [Usage](#usage)
 
 ## Introduction
@@ -19,7 +20,7 @@ Project containing docker compose file for ISEC6000 Secure Dev Ops - Assignment 
 * Docker Engine
 * Docker Compose
 
-## Usage
+## Runnning the Project
 ### Run the application
 ```shell
 docker compose up -d
@@ -40,3 +41,13 @@ docker compose rm
 ```shell
 docker system prune
 ```
+
+## Usage
+After running the application as [previously outlined](#run-the-application), you can access its' components at the following ports on the host machine:
+* dind:
+    * 2376
+* jenkins:
+    * 8080
+    * 50000
+
+*[Back to top](#isec6000-assignment-2)*

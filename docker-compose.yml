@@ -25,6 +25,8 @@ services:
     user: root
     networks:
       - jenkins
+    stdin_open: true
+    tty: true
     environment:
       - DOCKER_HOST="tcp://docker:2376"
       - DOCKER_CERT_PATH=/certs/client
@@ -34,6 +36,10 @@ services:
       - jenkins-data:/var/jenkins_home
       - /usr/bin/docker:/usr/bin/docker
 
+volumes:
+  docker-certs-ca:
+  docker-certs-client:
+  jenkins-data:
+
 networks:
   jenkins:
-    driver: bridge

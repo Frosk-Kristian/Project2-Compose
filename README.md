@@ -20,3 +20,6 @@ Project containing docker compose file for ISEC6000 Secure Dev Ops - Assignment 
 * Docker Compose
 
 ## Usage
+```shell
+docker compose up -d
+```

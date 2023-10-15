@@ -51,7 +51,9 @@ docker system prune
 ```
 
 ## Usage
-After running the application as [previously outlined](#run-the-application), you can access its' components at the following ports on the host machine:
+After running the application as [previously outlined](#run-the-application), you can access Jenkins at [localhost:8080](localhost:8080).
+
+The ports used by all containers are as follows:
 * dind:
     * 2376
 * jenkins:
